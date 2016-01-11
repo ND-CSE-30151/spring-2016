@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>CSE 30151: Theory of Computing</title>
+
+<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/theory.css">
+
+</head>
+
+<body>
+
+<div class="container">
+<h1><div class="supertitle"><a href="index.html#page2">&larr; CSE 30151: Theory of Computing</a></div>
+Projects</h1>
+
+<p>In addition to homework assignments, you'll work on projects that let you integrate what you've learned in this course with something (else) that you're interested in.</p>
+
+<h2>Requirements</h2>
+
+<ul>
+<li>You can work in groups of up to four students. Each student should submit a copy of the project.</li>
+<li>There are three projects due at three times in the semester (CP1, CP2, and CP3). You can do something different for each, or you can combine two or three projects into a super-project. You don't have to stay with the same group for the whole semester.</li>
+<li>Please submit your project report as a single PDF file. If you have additional files to submit (like code), please submit your report as a single PDF file plus everything else in a single .tgz file.
+</ul>
+
+<p>The project report should have three parts:
+<ul>
+<li><b>Relevance</b> (10 points). Write a short (one sentence) summary of how your project relates to the class. A paper on medieval Islamic art gets 0 points for relevance; a paper on the connection between medieval Islamic art and Turing machines, 10 points. All of the topics below are considered relevant. You're encouraged to create your own topic; feel free to check with the instructor beforehand to ensure that you get full credit for relevance.</li>
+<li><b>Effort</b> (10 points). Include a statement of how much time you spent on the project; for group projects, write how much time each group member spent. To get full credit for effort, each student should spend a minimum of six hours on each project.</li>
+<li><b>Content</b> (10 points). 
+<ul>
+<li>If your report <i>is</i> your project, a guideline for length is two pages (single-spaced) per student, but this is neither a minimum nor a maximum.</li>
+<li>If your report is describing something else you did (like a program), then it might be much shorter, like a few paragraphs.</li>
+<li>The report is graded for clarity only. If it gets across the main ideas of your project clearly, it will get full credit. Whether the project was large or small or successful or not doesn't affect your score.</li>
+</ul>
+</ul>
+
+<h2>Topics</h2>
+
+<p>Most projects will be papers or programs, or a combination. But if you want to do something else like build hardware or make a video, that's fine too!</p>
+
+<h3>Papers</h3>
+
+<ul>
+<li>The intended audience of your writing should be your classmates, or your non-CS/math friends &ndash; not your instructor.</li>
+<li>If your paper uses math, it's strongly recommended to use LaTeX. (A particularly easy way to do this is <a href="http://sharelatex.com">ShareLaTeX</a>, which you can get a free account on with your nd.edu email address.)
+</ul>
+
+<div class="row">
+
+<div class="four columns">
+<p><b>Natural Language Processing (CP1 or CP2).</b> Survey applications of finite-state methods,<sup>*</sup> context-free grammars, or other formalisms to natural language processing.</p>
+
+<p><b>Mathematical Linguistics (CP2).</b> What class of languages do human languages belong to (finite, regular, context-free, or something else)? Survey the history of this debate. Take a position and argue for it.
+<ul><li>A similar study could be done of animal communication systems.</li></ul>
+
+<p><b>Computational Biology (CP1 or CP2).</b> Survey applications of finite-state methods,<sup>*</sup> context-free grammars, or other formalisms to the analysis of biological sequences (DNA, RNA, or proteins).</p>
+
+<p><b>Computer Music (CP1 or CP2).</b> Survey applications of finite-state methods<sup>*</sup> or context-free grammars to analysis or generation of music.</p>
+
+<p><b>Computer Graphics (CP2 or CP3).</b> Survey formalisms related to those learned in class that have been used for generating computer graphics, like L-systems or Wang tiles.</p>
+
+</div>
+
+<div class="four columns">
+
+<p><b>Programming Languages (CP2 or CP3).</b> Survey uses of finite automata and context-free grammars in programming language compilation, or Turing-equivalent formalisms like the lambda calculus in programming language design, or decidable and undecidable problems in program analysis and verification.</p>
+
+<p><b>The First Computer (CP3).</b> What was the first computer? Choose an early computer and argue that it was the first true computer and the ones before it were not. Use Turing-equivalence as the definition of a computer &ndash; but even under this definition, there's more than one defensible answer to the question.</p>
+
+<p><b>Super-Turing Computation (CP3).</b> Choose one of the following things that have been claimed to be more powerful than Turing machines.
+<ul>
+  <li>Human intelligence</li>
+  <li>Quantum computation</li>
+  <li>Analog (real) computation</li>
+</ul>
+Survey the positions that have been taken for or against it being beyond Turing-equivalent. Take a position and argue for it.</p>
+
+</div>
+
+<div class="four columns">
+<p><b>Advanced Topics</b> There are many topics covered in the book or its exercises that we didn't have time for in class. Write a "for dummies" tutorial on one of these.
+<ul>
+<li>DFA minimization and the Myhill-Nerode Theorem (CP1).</li>
+<li>Finite transducers (CP1) or synchronous context-free grammars (CP2).</li>
+<li>Monadic second-order logic over strings and Büchi's Theorem (CP1).</li>
+<li>Deterministic context-free languages (CP2, section 2.4). Note that some of Sipser's terminology differs from the more standard terminology of Knuth.</li>
+<li>Context-sensitive grammars and linear bounded automata (CP2/3, section 5.1).</li>
+<li>Lambda calculus (CP3).</li>
+<li>Cellular automata (CP3).</li>
+<li>Recursion theorem (CP3, section 6.1).</li>
+<li>Decidability of logical theories (CP3, section 6.2).</li>
+<li>Kolmogorov complexity (CP3, section 6.4).</li>
+</ul>
+</p>
+</div>
+</div>
+
+<p>*Finite-state methods go by many different names, including finite-state transducers, hidden Markov models, and conditional random fields.</p>
+
+<h3>Programming</h3>
+
+<ul><li>You can write code in any language you want, as long as we can compile and run it in Linux or OS X. But for maximum usefulness to future students, I would prefer:
+<ul><li>algorithms in Python that can be used in the Jupyter notebook</li>
+    <li>interactive apps in Javascript that run in a web browser</li>
+</ul>
+<li>Include a README explaining how to build, run, and use your code.</li>
+</ul>
+
+<div class="row">
+
+<div class="four columns">
+
+<p><b>Applications and Advanced Topics</b>. Many of the topics listed above under "Papers" would also make interesting programming projects; just be sure to choose something manageable. For example:
+<ul><li>Randomly generate English sentences.</li>
+<li>Randomly generate music.</li>
+<li>Generate computer graphics.</li>
+<li>A lexer/parser for a simple programming language (like Scheme).</li>
+<li>DFA minimization.</li>
+<li>Cellular automata.</li>
+</ul>
+</p>
+
+</div>
+
+<div class="four columns">
+
+<p><b>Tock Extensions.</b>  Implement something we learned in class that is not already in Tock. For example:
+<ul>
+<li>A universal Turing machine (CP3).</li>
+<li>The constructive proof of the Cook-Levin Theorem, which converts a Turing machine to a sentence of propositional logic.</li>
+<li>Currently Tock lets you visualize a nondeterministic run as a graph, but maybe an animated and/or interactive visualization would work better.</li>
+<li>A simple and clean graph editor for state transition diagrams that can be used to create finite automata, pushdown automata, and Turing machines.</li>
+</ul></p>
+
+</div>
+
+<div class="four columns">
+
+<p><b>Puzzles.</b> In the first lecture, we played with three puzzles that were equivalent to recognition of a regular language, an NP-complete problem, and an undecidable problem. Write an interactive implementation of one of these puzzles, or design a new puzzle.
+<ul>
+<li>CP2: Design and implement a new puzzle that is equivalent to recognition of a CFL. Probably the best way to do this would be inspired by RNA secondary structure.</li>
+<li>Optional: Implement an automatic solver.</li>
+</ul>
+</p>
+
+</div>
+</div>
+
+</div>
+
+</body>
