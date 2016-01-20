@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\input{theory}
+
+\title{Example \LaTeX{} file}
+\author{CSE 30151}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\begin{tikzpicture}
+  \node[initial,state] at (0,0) (A) {$q_a$};
+  \node[state, accepting] (B) [below of=A] {$q_b$};
+  \path     (A) edge [bend left,auto=left] node {\sym{1}} (B)
+                edge [loop above] node {\sym{1}} (A)
+            (B) edge [bend left,auto=left] node {\sym{0}} (A);
+            
+\end{tikzpicture}
+\end{center}
+
+\end{document}

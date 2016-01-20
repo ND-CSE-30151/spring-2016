@@ -1,0 +1,23 @@
+% Style file for Theory of Computing
+% Version 2016/01/20
+
+% To use this, put \input{theory} into your preamble.
+
+% See example.tex for an example.
+
+% This just generally a good idea
+\usepackage{amsmath,amssymb}
+
+% Drawing automata
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows, shapes}
+\tikzset{every edge/.style={draw,->,>=stealth',shorten >=1pt,auto,semithick}}
+\tikzset{node distance=1in}
+\tikzset{initial text={}}
+
+% Change epsilon to match Sipser's style
+\let\epsilon\varepsilon
+
+% Use \sym{a} for the actual symbol a (not a variable named a)
+\newcommand{\sym}[1]{\ensuremath{\mathtt{#1}}}
+
