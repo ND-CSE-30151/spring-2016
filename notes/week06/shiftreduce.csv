@@ -1,0 +1,13 @@
+      ,"&,&   ","a,&   ","b,&   ","T,&   ","&,$"     
+>start,"loop,$",        ,        ,        ,          
+loop  ,        ,"loop,a","loop,b",        ,          
+loop  ,        ,        ,"1.2,& ",        ,          
+1.2   ,        ,        ,        ,"1.1,& ",          
+1.1   ,        ,"loop,S",        ,        ,          
+loop  ,        ,        ,"loop,S",        ,          
+loop  ,"loop,S",        ,        ,        ,          
+loop  ,        ,        ,        ,        ,"accept,&"
+loop  ,        ,"2.1,& ",        ,        ,          
+2.1   ,        ,        ,        ,"loop,T",          
+loop  ,"loop,T",        ,        ,        ,
+@accept,       ,        ,        ,        ,
