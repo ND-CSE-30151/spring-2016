@@ -1,0 +1,15 @@
+digraph {
+  rankdir=LR;
+  node [fontname=Courier,fontsize=10,shape=box,style=rounded,height=0,width=0,margin="0.055,0.042"];
+  edge [arrowhead=vee,arrowsize=0.5,fontname=Courier,fontsize=9];
+  _START[shape=none,label=""];
+
+  0[peripheries=2,label=<accept>];
+  2[label=" "];
+  4[label=" "];
+  _START -> 2
+  2 -> 2[label=<<table border="0" cellpadding="1"><tr><td>0 &rarr; 0 ^</td></tr><tr><td>1 &rarr; 1 ^</td></tr></table>>];
+  2 -> 4[label=<<table border="0" cellpadding="1"><tr><td># &rarr; # ^</td></tr></table>>];
+  4 -> 4[label=<<table border="0" cellpadding="1"><tr><td>x &rarr; x ^</td></tr></table>>];
+  4 -> 0[label=<<table border="0" cellpadding="1"><tr><td>0 &rarr; 0</td></tr><tr><td>1 &rarr; 1</td></tr></table>>];
+}
